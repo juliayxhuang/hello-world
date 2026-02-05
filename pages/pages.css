@@ -1,0 +1,46 @@
+@import '../home.css';
+
+body {
+    font-family: "p22-flw-midway-one", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 80vh;
+    height: auto;
+}
+
+.cursor {
+    cursor: pointer;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.cursor.canada {
+    color: red;
+}
+
+.cursor.dance {
+    color: darkmagenta;
+    font-family: "p22-flw-midway-one", sans-serif;
+}
+
+.cursor.food {
+    color: orange;
+}
+
+.cursor.food body {
+    background-color: lightblue;
+}
+
+.cursor.canada:hover {
+    cursor: url(../images/cursor.cur) 0 0, auto;
+}
+
+.cursor.dance:hover {
+    color: gold;
+}

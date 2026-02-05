@@ -1,4 +1,6 @@
 @import url("https://use.typekit.net/gpc1bxl.css");
+@import url("https://use.typekit.net/gpc1bxl.css");
+@import 'home.css';
 
 body {
     margin: 0;
@@ -11,14 +13,72 @@ body {
 body {
     background-color: black;
     color: white;
-    font-family: "p22-flw-midway-one", sans-serif;
+    font-family: "receipt-narrow", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-h1 {
-    
+.icon {
+    position: relative;
+    display: inline-block; 
+    transition: transform 0.2 ease;
 }
 
-p {
+.icon:hover {
+    transform: rotate(360deg);
+    /* transform: scale(1.5); */
+}
 
+.icon img {
+    width: 7vh;
+    height: auto;
+}
+
+.icon.flag {
+    position: fixed;
+    bottom: 10%;
+    right: 20%;
+}
+
+.icon.dance {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+}
+
+.icon.food {
+    position: fixed;
+    left: 30%;
+    bottom: 30%;
+}
+
+.icon.error {
+    position: fixed;
+    top: 10%;
+    right: 30%;
+}
+
+.icon.peanut {
+    position: fixed;
+    top: 40%;
+    right: 5%;
+}
+
+.icon.dog {
+    position: fixed;
+    bottom: 3%;
+    left: 8%;
+}
+
+/* Continuous spinning (doesn't stop) */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.icon:hover {
+    animation: spin 0.7s linear infinite;
 }
