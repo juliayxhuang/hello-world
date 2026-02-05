@@ -1,0 +1,35 @@
+
+.lily img {
+  opacity: 0;               /* invisible by default */
+  transition: opacity 0.3s ease; /* smooth fade */
+  width: 10vh;
+  height: auto;
+}
+
+.lily:hover img {
+  opacity: 1;               /* fully visible on hover */
+}
+
+.lily.one img {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+
+.lily.two img {
+  position: fixed;
+  top: 15%;
+  left: 15%;
+}
+
+.lily.three img {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
+
+.lily.four img {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+}

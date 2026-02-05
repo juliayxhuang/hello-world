@@ -21,6 +21,24 @@ body {
     text-align: center;
 }
 
+.hello {
+    position: relative;
+    display: inline-block;
+    font-size: 3em;
+}
+
+.hello:hover {
+  color: transparent; 
+}
+
+.my-text:hover::after {
+  content: "my name is julia";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: pink;
+}
+
 .icon {
     position: relative;
     display: inline-block; 

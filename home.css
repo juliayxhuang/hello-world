@@ -1,5 +1,14 @@
+@import url("https://use.typekit.net/gpc1bxl.css");
+@import url("https://use.typekit.net/gpc1bxl.css");
+
 .home-button {
     position: fixed;
     top: 5%;
     left: 3%;
+}
+
+.home-button a {
+    font-family: "receipt-narrow", sans-serif;
+    text-decoration: none;
+    color: inherit;
 }
