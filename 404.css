@@ -1,0 +1,22 @@
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.error-page h1 {
+  font-size: clamp(4rem, 10vw, 8rem);
+  margin-bottom: 1rem;
+}
+
+.error-page a {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+}
