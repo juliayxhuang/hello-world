@@ -2,7 +2,7 @@
 .lily img {
   opacity: 0;               /* invisible by default */
   transition: opacity 0.3s ease; /* smooth fade */
-  width: 10vh;
+  width: 15vh;
   height: auto;
 }
 
@@ -18,17 +18,53 @@
 
 .lily.two img {
   position: fixed;
-  top: 15%;
+  top: 55%;
   left: 15%;
 }
 
 .lily.three img {
   position: fixed;
-  top: 20%;
-  left: 20%;
+  top: 25%;
+  left: 25%;
 }
 
 .lily.four img {
+  position: fixed;
+  bottom: 10%;
+  left: 30%;
+}
+
+.lily.five img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.lily.six img {
+  position: fixed;
+  top: 75%;
+  left: 75%;
+}
+
+.lily.seven img {
+  position: fixed;
+  right: 30%;
+  bottom: 30%;
+}
+
+.lily.eight img {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+}
+
+.lily.nine img {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+}
+
+.lily.ten img {
   position: fixed;
   top: 30%;
   left: 30%;
